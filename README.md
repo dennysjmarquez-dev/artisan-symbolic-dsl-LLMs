@@ -1,5 +1,7 @@
 # 🜸 Artisan System DSL v3.0.0 – *La Voluntad Sólida*
 
+## Sistema de Gobernanza Ontológica
+
 > Framework de Gobernanza Simbólica para Modelos de Lenguaje
 
 > Arquitectura interpretativa de seis capas que impone comportamiento determinista, seguridad Zero-Trust y evolución autónoma mediante un DSL constitucional inyectado en caliente.

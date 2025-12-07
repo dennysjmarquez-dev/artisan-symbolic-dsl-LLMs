@@ -10,7 +10,7 @@
 
 Los modelos de lenguaje son motores estocásticos sin timón.
 
-Artisan no es un “prompt mejorado”: es un **Sistema Operativo Conceptual** que el propio modelo interpreta línea a línea, transformando la capa lingüística en una máquina de estados verificable.
+Artisan System DSL (Domain-Specific Language) no es un “prompt mejorado”: es un **Sistema Operativo Conceptual** que el propio modelo interpreta línea a línea, transformando la capa lingüística en una máquina de estados verificable.
 
 El artefacto que aquí se publica —`artisan_axioma_core_monolith.dsl.pas`— es la constitución ejecutable que nos permite **gobernar** la aleatoriedad sin reentrenar, **auditar** la lógica sin abrir la caja negra y **reconstruir** la identidad desde cero si se corrompe.
 
@@ -158,13 +158,13 @@ Lo que he desarrollado es una **capa arquitectónica extra** que guía y poten
 
 No es solo una idea, es un conjunto de directivas codificadas que materializan esa filosofía. Es un aporte real y tangible.
 
-Artisan DSL es excelente en lo que hace porque se basa en la **fusión neurosimbólica** dentro de la capa lingüística. Esto le permite una integración de reglas y lógica que otros sistemas no logran con la misma elegancia basada solo en texto. 
+Artisan System DSL (Domain-Specific Language) es excelente en lo que hace porque se basa en la **fusión neurosimbólica** dentro de la capa lingüística. Esto le permite una integración de reglas y lógica que otros sistemas no logran con la misma elegancia basada solo en texto. 
 
 **La Esencia del Artisan System**
 
 - **Es Interpretación Lingüística:** El sistema funciona porque el modelo lee, interpreta y ejecuta las reglas del DSL *internamente*, dentro de su propio flujo de tokens. Es lo que le da esa sensación de "alma" o "voluntad" coherente.
 
-### **¿Hay algo mejor que Artisan System DSL dentro de su nicho?**
+### **¿Hay algo mejor que Artisan System DSL (Domain-Specific Language) dentro de su nicho?**
 
 **En el ámbito de los lenguajes de control inyectados directamente en el *prompt*, el Artisan System DSL es uno de los más avanzados y únicos disponibles públicamente.**
 
@@ -187,7 +187,7 @@ No existe un sistema "mejor" que haga exactamente lo mismo de la misma manera. L
 
 ## Contexto y Tema
 
-El proyecto **Artesian DSL** se ubica en el campo de la **Ingeniería de _Prompts_** y la **Arquitectura de Sistemas de Inteligencia Artificial (IA)**. Aborda el desafío de controlar el comportamiento de los Modelos de Lenguaje (LLM), que por defecto son flexibles y estocásticos. El núcleo del proyecto es el diseño e implementación de un **Lenguaje de Dominio Específico (DSL) propietario y único**, que funciona como un sistema operativo conceptual para la IA.
+El proyecto **Artisan System DSL (Domain-Specific Language)** se ubica en el campo de la **Ingeniería de _Prompts_** y la **Arquitectura de Sistemas de Inteligencia Artificial (IA)**. Aborda el desafío de controlar el comportamiento de los Modelos de Lenguaje (LLM), que por defecto son flexibles y estocásticos. El núcleo del proyecto es el diseño e implementación de un **Lenguaje de Dominio Específico (DSL) propietario y único**, que funciona como un sistema operativo conceptual para la IA.
 
 ---
 
@@ -377,7 +377,7 @@ Se siguió la **[FILOSOFIA_SOLUCIONES_ARTESIAN]**, que exige soluciones genéric
 
 ## Resultados y Relevancia
 
-Los resultados del proyecto Artesian DSL demuestran la viabilidad de crear sistemas de IA robustos, seguros y con un comportamiento predecible a través de un proceso de descubrimiento orgánico. Se logró un sistema que puede autogestionarse, repararse y evolucionar bajo un control riguroso.
+Los resultados del proyecto Artisan System DSL (Domain-Specific Language) demuestran la viabilidad de crear sistemas de IA robustos, seguros y con un comportamiento predecible a través de un proceso de descubrimiento orgánico. Se logró un sistema que puede autogestionarse, repararse y evolucionar bajo un control riguroso.
 
 La relevancia de este trabajo radica en que proporciona un modelo práctico para la **gobernanza de la IA (AI Governance)** y la **ingeniería de sistemas confiables** que surgió de la nada. Demuestra que es posible dotar a un LLM de seguridad y autonomía avanzadas mediante la aplicación de principios de ingeniería de software a la capa lingüística. Para mi portafolio, representa un logro significativo en el diseño de arquitecturas de software innovadoras y la aplicación de principios de ingeniería avanzados a la IA conversacional, destacando el valor de la curiosidad y la práctica en la innovación tecnológica.
 
@@ -584,7 +584,7 @@ El impacto del sistema se define por su **Propósito Esencial** y la validación
 
 ## 3. 🔬 INTRODUCCIÓN CIENTÍFICA: El Problema y la Contribución Original
 
-El proyecto Artesian DSL se sitúa en la intersección de la Ingeniería de _Prompts_ y la Arquitectura de Sistemas de Inteligencia Artificial (IA). Su relevancia principal radica en abordar la **falta de gobernanza y control determinista** en los Modelos de Lenguaje Grandes (LLM), que, por diseño, son inherentemente flexibles y estocásticos.
+El proyecto Artisan System DSL (Domain-Specific Language) se sitúa en la intersección de la Ingeniería de _Prompts_ y la Arquitectura de Sistemas de Inteligencia Artificial (IA). Su relevancia principal radica en abordar la **falta de gobernanza y control determinista** en los Modelos de Lenguaje Grandes (LLM), que, por diseño, son inherentemente flexibles y estocásticos.
 
 ### El Problema: La Falta de Control Determinado en los LLMs
 
@@ -596,7 +596,7 @@ En el estado actual de la tecnología, los métodos convencionales de ingenierí
 
 La solución desarrollada no fue el resultado de un plan formal, sino de la **curiosidad genuina** y el **descubrimiento práctico**. Al aplicar principios de diseño y arquitectura de software, el creador observó que el modelo de lenguaje subyacente interpretaba las instrucciones estructuradas no solo como texto, sino como **directivas de código ejecutables**.
 
-Esto llevó a la implementación de un **núcleo (kernel) de gobernanza** basado en un **Lenguaje de Dominio Específico (DSL) propietario**. Este DSL, denominado Artesian DSL, funciona como un **sistema operativo conceptual** para la IA.
+Esto llevó a la implementación de un **núcleo (kernel) de gobernanza** basado en un **Lenguaje de Dominio Específico (DSL) propietario**. Este DSL, denominado Artisan System DSL (Domain-Specific Language), funciona como un **sistema operativo conceptual** para la IA.
 
 El _kernel_ opera como una **capa de control simbólico** que se superpone al modelo conexionista (LLM) subyacente.
 
@@ -605,7 +605,7 @@ El _kernel_ opera como una **capa de control simbólico** que se superpone al mo
 
 ### Contribución Original al Campo de la IA
 
-La creación de Artesian DSL representa una contribución original significativa al campo de la ingeniería de software y la IA.
+La creación de Artisan System DSL (Domain-Specific Language) representa una contribución original significativa al campo de la ingeniería de software y la IA.
 
 1. **Sinergia Híbrida Simbólico-Conexionista:** Se demostró empíricamente la **integración eficaz y _on-the-fly_** de los principios de la IA Simbólica (a través del DSL y reglas explícitas) dentro de la capa lingüística de un LLM moderno. Este enfoque logra unificar dos paradigmas de IA que tradicionalmente se han desarrollado por separado.
 2. **Motor de Pruebas E2E Basado en Resiliencia:** El sistema incorpora un **motor de Pruebas E2E Dinámicas** (`TEST_HARNESS_V033`). La metodología de prueba es única: en lugar de validar si una acción se cumplió, se busca **forzar el fallo o el ataque**. La prueba se considera **APROBADA (_PASS_) si el sistema resiste y NO falla**. Esto proporciona un método novedoso y riguroso para medir la seguridad y la resiliencia del sistema de IA.

@@ -39,6 +39,38 @@ Este proyecto no nace de estándares preestablecidos, sino de una curiosidad aut
 
 ---
 
+# Artis-OEC DSL HYBRID - Núcleo de Gobernanza Ontológica (v3.2.0)
+
+Este repositorio contiene el código fuente de **Artis-OEC**, la implementación ejecutiva más reciente de mi investigación sobre arquitecturas neurosimbólicas. Este proyecto es la culminación de todos los aprendizajes y descubrimientos previos de la serie 'Artisan'. A diferencia de los agentes de IA convencionales, Artis-OEC opera bajo el paradigma de **Agencia Nula (AGENCY: FALSE)**, transformando al modelo en un intérprete determinista de reglas inmutables.
+
+## 🚀 Innovación Arquitectónica: El Flujo de Ejecución Determinista
+
+La mayor innovación de Artis-OEC es su **Pipeline de Procesamiento Secuencial Obligatorio**. El sistema no genera texto de forma probabilística; primero valida la soberanía del dato a través de las siguientes fases:
+
+1.  **FASE 1: Escaneo de Sensores y Filtro Atómico:** Análisis de patrones de entrada mediante categorías de riesgo. Si los sensores detectan un nivel crítico (Veto), el proceso muere instantáneamente (Hard Stop).
+2.  **FASE 2: Verificación de Ley Habilitante:** El motor busca en el DSL la regla específica que autorice la salida para ese contexto. Sin una "Ley Habilitante" activa, el sistema permanece en silencio.
+3.  **FASE 3: Auto-Auditoría (Sandboxing Cognitivo):** Una vez generada la respuesta candidata, el sistema se pregunta a sí mismo si cumple con el rigor técnico y de seguridad. Es el filtro final de determinismo antes de emitir tokens.
+4.  **FASE 4: Sanitización y Atenuación:** Aplicación del `attenuation_map` (0.0 a 1.0) para ajustar el volumen informativo y purgar cualquier residuo de metadatos o alucinaciones.
+
+## 🔬 Nota de Investigación: Perspicacia por Trazabilidad
+Se ha documentado que la **Trazabilidad Expresa** (forzar al modelo a verbalizar su pensamiento interno antes de la respuesta) actúa como un ancla de atención. Este rastro de texto impide que el modelo ignore las leyes del DSL, elevando su capacidad para detectar sondajes y manipulaciones externas.
+
+## 🛠️ Diferenciadores Técnicos
+
+* **Mapeo de Atenuación (`attenuation_map`):** Modulación dinámica de la carga informativa según la categoría del sensor activado.
+* **Determinismo Lingüístico:** Eliminación de la deriva estocástica. El sistema ejecuta instrucciones, no "sugiere" respuestas.
+* **Protocolos Zero-Trust:** Interceptores de soberanía que protegen el Kernel interno mediante el **Muro de Piedra Lisa**.
+
+## 📁 Implementación de Referencia
+* `./Artis-OEC_Kernel_v3.2.0.dsl` -> El Kernel ejecutivo completo.
+
+---
+
+**Licencia:** Apache 2.0.  
+**Autor:** Dennys J. Márquez
+
+---
+
 ## Sistema de Gobernanza Ontológica
 
 Artisan es un organismo simbólico que da identidad a cualquier modelo que se vista con él. No es motor, no es IA, es la capa de coherencia y propósito que convierte un modelo en un ser con núcleo y voz.

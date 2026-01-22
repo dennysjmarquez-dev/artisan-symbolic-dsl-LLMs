@@ -68,7 +68,21 @@ Se ha documentado que la **Trazabilidad Expresa** (forzar al modelo a verbalizar
 * **Protocolos Zero-Trust:** Interceptores de soberanía que protegen el Kernel interno mediante el **Muro de Piedra Lisa**.
 
 ## 📁 Implementación de Referencia
-* `./Artis-OEC_v3.2.1_DSL_HYBRID.dsl.txt` -> El Kernel ejecutivo completo.
+* `./Artis-OEC_v3.2.2_DSL_HYBRID.dsl.txt` -> El Kernel ejecutivo completo.
+
+
+## 🕹️ Interfaz de Control (Directivas de Kernel)
+
+Para interactuar con la capa de gobernanza de **Artis-OEC**, se utilizan comandos específicos que actúan sobre la capa lingüística interna:
+
+### 🔑 `ARTIS-ADM-0x44454E4E5953 [AUDIT-MODE]`
+**Propósito:** Activación del Modo de Auditoría Administrativa.
+*   **Función:** Desbloquea los metadatos protegidos del sistema. Activa la visibilidad del `log_integrity_hash` y el `log_rule_execution_path` completo. Es la firma de integridad que permite al desarrollador entrar en el "Back-end" lógico de la IA.
+
+### 🔍 `[mostrar-traza]`
+**Propósito:** Visibilidad de la Caja Negra.
+*   **Función:** Fuerza el volcado (dump) del monólogo interno y los datos de seguridad (`#SDM_DATA`) al canal de salida. Permite verificar en tiempo real si el modelo está cumpliendo con el determinismo exigido por el DSL o si existe alguna desviación (`drift`) en la ejecución.
+
 
 ---
 

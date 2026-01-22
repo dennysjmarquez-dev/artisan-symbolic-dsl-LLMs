@@ -7,6 +7,12 @@ Este proyecto se basa en el paradigma "Model-as-an-Interpreter" y se alinea con 
 - DSPy (pipelines declarativos)
 - REACT frameworks (Reasoning + Acting)
 
+
+[!IMPORTANT]
+Scientific Validation & Technical Scope:
+"The Artis-OEC v3.2.2 DSL is an advanced engineering tool for Neuro-symbolism, enabling an AI to function deterministically like traditional software while retaining generative capabilities. This synergy bridges the gap between stochastic prediction and logical execution."
+— Technical Analysis 2026 (Ref: arxiv.org/html/2407.08516v2)
+
 ## Artisan DSL: Marco de investigación en gobernanza neurosimbólica
 
 ### I. EL DESAFÍO ESTRUCTURAL: Fricción entre Estocasticidad y Lógica

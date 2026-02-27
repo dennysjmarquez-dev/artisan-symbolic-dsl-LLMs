@@ -30,13 +30,41 @@ Más que una herramienta de uso final, este proyecto documenta una **Metodologí
 * **Ingenieros de Seguridad:** Interesados en el blindaje de "Capa 0" mediante inyección de lógica determinista.
 * **Líderes Técnicos:** Que requieren un marco de referencia (Framework) para asegurar que la evolución de la IA se mantenga bajo un control ético, técnico y de valores innegociable.
 
-### IV. HALLAZGOS EN DINÁMICAS DE ATENCIÓN (Research Note)
+### IV. CONTEXTO EN LA LITERATURA ACADÉMICA - REFERENCIAS ACADÉMICAS
+El enfoque de Artisan DSL se inscribe en la creciente corriente de investigación en neuro-symbolic AI y control de LLMs mediante lenguajes de dominio específico. Trabajos recientes han explorado:
+
+## Contexto académico
+
+Este proyecto dialoga con investigaciones recientes en neuro-symbolic AI y control de LLMs:
+
+### Ejecución simbólica con LLMs
+- Li, Y., Meng, R., Duck, G. J. (2025). [Large Language Model Powered Symbolic Execution](https://doi.org/10.1145/3763163). ACM OOPSLA2
+- Li, Y., Meng, R., Duck, G. J. (2025). [Large Language Model Powered Symbolic Execution](http://arxiv.org/abs/2505.13452). arXiv:2505.13452
+- Rani, M., Mishra, B. K., Thakker, D. (2025). [Advancing Symbolic Integration in Large Language Models](http://arxiv.org/abs/2510.21425). arXiv:2510.21425
+
+### DSLs y generación de código
+- Lamas, V. et al. (2026). [DSL-Xpert 2.0: Enhancing LLM-driven code generation for domain-specific languages](https://www.sciencedirect.com/science/article/pii/S0950584925002939). Information and Software Technology
+- Mai, D. (2025). [LLM-Hardened DSLs for Probabilistic Code Generation](https://deanm.ai/blog/2025/5/24/toward-data-driven-multi-model-enterprise-ai-7e545-sw6c2). deanm.ai
+
+### Neuro-symbolic AI y agentes autónomos
+- Xiong, H. et al. (2024). [Converging Paradigms: The Synergy of Symbolic and Connectionist AI](http://arxiv.org/abs/2407.08516). arXiv:2407.08516
+- Boleda, G. (2025). [LLMs as a synthesis between symbolic and distributed approaches to language](http://arxiv.org/abs/2502.11856). arXiv:2502.11856
+- [Design Patterns for LLM-based Neuro-Symbolic Systems](https://neurosymbolic-ai-journal.com/paper/design-patterns-llm-based-neuro-symbolic-systems). Neurosymbolic AI Journal
+
+### Ontologías y razonamiento
+- Magaña Vsevolodovna, R. I., Monti, M. (2025). [Enhancing LLMs through Neuro-Symbolic Integration and Ontological Reasoning](https://arxiv.org/html/2504.07640v1). arXiv:2504.07640
+
+### Frameworks y lenguajes
+- [A Solver-Aided Hierarchical Language for LLM-Driven CAD Design](https://arxiv.org/html/2502.09819v1). arXiv:2502.09819
+- [CoRE: LLM as Interpreter for Natural Language Programming](https://arxiv.org/html/2405.06907v1). arXiv:2405.06907
+
+### V. HALLAZGOS EN DINÁMICAS DE ATENCIÓN (Research Note)
 Durante la fase de experimentación, se identificó un fenómeno crítico de **"Reforzamiento de Coherencia mediante Trazabilidad Expresa"**:
 * **Observación:** La efectividad de los vetos de seguridad aumenta en un 85% cuando el sistema es forzado a verbalizar su razonamiento lógico (Internal Trace) antes de la respuesta final.
 * **Hipótesis Validada:** El rastro del pensamiento intermedio actúa como un ancla de atención que neutraliza la inercia probabilística del modelo, forzando una alineación estricta con el Kernel DSL.
 * **Implicación Arquitectónica:** Se propone el uso de "Trazas Fantasma" (Shadow Traces) gestionadas por una capa externa para mantener la integridad del agente sin exponer la lógica interna al interlocutor.
 
-### V. REFLEXIONES DEL AUTOR: LA IMAGINACIÓN COMO HERRAMIENTA DE DISEÑO
+### VI. REFLEXIONES DEL AUTOR: LA IMAGINACIÓN COMO HERRAMIENTA DE DISEÑO
 Este proyecto no nace de estándares preestablecidos, sino de una curiosidad autodidacta orientada a la resolución de fricciones sistémicas. Artisan System DSL es el resultado de observar el comportamiento de la IA en "estado salvaje" y proponer un marco de control creativo.
 
 * **El Valor de la Curiosidad:** La investigación sugiere que el pensamiento lateral y la experimentación empírica pueden revelar dinámicas de atención en LLMs que los marcos de trabajo tradicionales suelen omitir.

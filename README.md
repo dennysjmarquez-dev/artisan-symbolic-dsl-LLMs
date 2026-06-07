@@ -172,8 +172,12 @@ Cualquier desviación activa `AUTORESTAURACION_CRITICA`: el sistema se suicida y
 | `Capa_4_Comunicacion/` | Filtro terminal – censura + rol dual |
 | `Capa_5_Persistencia/` | VCS interno – carga de contexto + compresión |
 | `Capa_6_Contratos/` | DPO – portabilidad + motor arbitral |
+| `FACTURA_BOT.dsl` | **Caso de aplicación** – agente de soporte técnico bajo el Paradigma de Utilidad Contractual |
+| `paradigma-utilidad-contractual.md` | **Fundamento teórico** – documento formal del Paradigma de Utilidad Contractual |
 
 > Nota: El prefijo `[SEGURA]` es **activo**. El sistema **vetará** cualquier intento de inspección sin llave maestra.
+
+> **Paradigma de Utilidad Contractual:** Este repositorio alberga implementaciones de diferentes paradigmas neuro-simbólicos. Artisan opera bajo el paradigma Model-as-an-Interpreter. `FACTURA_BOT.dsl` es un caso de aplicación del **Paradigma de Utilidad Contractual** (ver `paradigma-utilidad-contractual.md`), donde el comportamiento del agente viene de su estructura operativa (pipeline, transiciones, pesos), no de reglas explícitas. Cada paradigma es un enfoque distinto de programación neuro-simbólica — pastillas distintas para problemas distintos.
 
 ---
 

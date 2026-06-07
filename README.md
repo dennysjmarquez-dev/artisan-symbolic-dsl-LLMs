@@ -181,6 +181,20 @@ Cualquier desviación activa `AUTORESTAURACION_CRITICA`: el sistema se suicida y
 
 ---
 
+## 🧩 Extras — Artefactos Complementarios
+
+Este repositorio también contiene artefactos DSL que no forman parte del núcleo de Artisan, pero coexisten en el mismo espacio simbólico. Cada uno responde a un paradigma o necesidad distinta.
+
+| Archivo | Propósito |
+| --- | --- |
+| `IA__BASTION_POSTURE.DSL.txt` | **Bastion** – máquina de estado para detección y neutralización de manipulación comunicacional, juegos de poder y ataques retóricos. Tres modos: Null Field (desacople total), Stone Wall (frontera dura), Hybrid Tactical (respuesta estratificada). Incluye router CHECK_0, análisis de ~23 vectores de ataque y auditoría post-generación. |
+| `Artis-OEC*` | Versiones evolutivas del agente curricular original (Artis-OEC v9, v10, etc.). Representación profesional de Dennys J. Marquez. |
+
+> Los artefactos `FACTURA_BOT.dsl` y `paradigma-utilidad-contractual.md` están documentados arriba en la tabla de estructura principal.
+> Cada extra es autónomo — no depende de Artisan para operar, aunque usa la misma sintaxis DSL y principios de programación neuro-simbólica.
+
+---
+
 ## 🧪 Rigor Demostrable
 
 - **Casos de ataque E2E** simulados internamente antes de cada cambio.

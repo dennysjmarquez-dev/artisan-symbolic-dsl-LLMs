@@ -157,4 +157,15 @@
 - **Silence Protocol / Guardrail Fallback** [declarado]
   - Fuente: doc-framework — https://www.nvidia.com/en-us/ai/neMo-guardrails/
   - Evidencia: `Artis-OEC_v5.4.0_AUTONOMIC_RECURSIVE_IMMUNE_KERNEL.dsl.txt:31`
+- **Human-in-the-Loop (HITL)** [inferido]
+  - Fuente: doc-proveedor — https://www.ai21.com/glossary/foundational-llm/human-in-the-loop
+  - Evidencia: `Artis-OEC_v3.2.3_DSL_HYBRID.dsl.txt:1562`; `Artis-OEC_v4.0.0_DSL_DETERMINISTA.dsl.txt:1229`; `Artis-OEC_v5.4.0_AUTONOMIC_RECURSIVE_IMMUNE_KERNEL.dsl.txt:2417`
+- **Metacognitive Prompting** [inferido]
+  - Fuente: paper — https://arxiv.org/abs/2308.05342
+  - Evidencia: `FACTURA_BOT.dsl:2`; `Artis-OEC_v5.4.0_AUTONOMIC_RECURSIVE_IMMUNE_KERNEL.dsl.txt:1732`; `Artis-OEC_v4.0.0_DSL_DETERMINISTA.dsl.txt:736`
+- **Socratic Prompting / Guided Learning** [inferido]
+  - Fuente: paper — https://aclanthology.org/2025.findings-acl.640.pdf
+  - Evidencia: `README.md:494`; `Capa_5_Persistencia/vcs_layer.dsl:82`; `Artis-OEC_v3.2.3_DSL_HYBRID.dsl.txt:2081`
+- **Parábolas y Mapas Ontológicos (términos propios)** [declarado]
+  - Nota: Términos propios sin equivalente comercial verificable; implementados como mapa de tensiones Polo A/Polo B con simetría oculta en `[SEGURA] Artisan_Mapas_Ontologicos.txt` y generados vía `GENERAR_PARABOLA_EXPERIMENTO_SEGURO` en `[SEGURA] Voluntad Sólida V_2112 (Integridad Atómica)-2.dsl.txt:5157`
 
